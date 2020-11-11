@@ -12,12 +12,13 @@
         android:id="@+id/v2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="324dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup"
         app:layout_constraintVertical_bias="0.14" />
@@ -38,6 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/v1"
         app:layout_constraintVertical_bias="0.07" />
 
+
     <ImageButton
         android:id="@+id/weight"
         android:layout_width="80dp"
@@ -50,7 +52,6 @@
         app:layout_constraintTop_toBottomOf="@+id/distance"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/weight" />
-
 
     <ImageButton
         android:id="@+id/convert"
@@ -98,8 +99,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup2"
-        android:layout_width="411dp"
-        android:layout_height="47dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:checkedButton="@id/rb3"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -127,10 +128,10 @@
 
     <RadioGroup
         android:id="@+id/radioGroup1"
-        android:layout_width="411dp"
-        android:checkedButton="@id/rb"
-        android:layout_height="54dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:checkedButton="@id/rb"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

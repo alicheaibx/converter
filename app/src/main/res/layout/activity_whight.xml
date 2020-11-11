@@ -11,12 +11,13 @@
         android:id="@+id/v2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="300dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup"
         app:layout_constraintVertical_bias="0.14" />
@@ -25,7 +26,7 @@
         android:id="@+id/UCF"
         android:layout_width="362dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="464dp"
+        android:layout_marginBottom="448dp"
         android:gravity="center"
         android:text="choose the measuremant"
         android:textAlignment="gravity"
@@ -33,10 +34,10 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintVertical_bias="0.072" />
+        />
 
     <ImageButton
         android:id="@+id/tempreture"
@@ -102,25 +103,24 @@
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup1"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintVertical_bias="0.024" />
 
     <RadioGroup
         android:id="@+id/radioGroup2"
-        android:checkedButton="@id/rb13"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:checkedButton="@id/rb13"
 
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/UCF"
-        app:layout_constraintVertical_bias="0.062">
-
+        app:layout_constraintVertical_bias="0.115">
 
 
         <RadioButton
@@ -169,12 +169,13 @@
 
     <RadioGroup
         android:id="@+id/radioGroup1"
-        android:checkedButton="@id/rb"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:checkedButton="@id/rb"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/UCT"
         app:layout_constraintVertical_bias="0.043">
 

@@ -107,7 +107,7 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:checkedButton="@id/rb"
         android:orientation="horizontal"
@@ -163,9 +163,9 @@
 
     <RadioGroup
         android:id="@+id/radioGroup1"
-        android:checkedButton="@id/rb13"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:checkedButton="@id/rb13"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
