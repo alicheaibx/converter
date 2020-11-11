@@ -52,7 +52,7 @@ ImageButton b3;
 
     private void temperature() {
         Intent intent1 = new Intent(MainActivity.this, Tempreture.class);
-
+        startActivity(intent1);
     }
 
 }
