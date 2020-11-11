@@ -23,8 +23,8 @@
 
     <TextView
         android:id="@+id/UCF"
-        android:layout_width="362dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="472dp"
         android:gravity="center"
         android:text="choose the measuremant"
@@ -35,7 +35,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/v1" />
+        app:layout_constraintTop_toBottomOf="@+id/v1"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/tempreture"
@@ -79,8 +80,8 @@
 
     <TextView
         android:id="@+id/UCT"
-        android:layout_width="362dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="choose the measuremant"
         android:textAlignment="gravity"
@@ -107,7 +108,7 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checkedButton="@id/rb"
         android:orientation="horizontal"
@@ -163,7 +164,7 @@
 
     <RadioGroup
         android:id="@+id/radioGroup1"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checkedButton="@id/rb13"
         android:orientation="horizontal"
@@ -219,8 +220,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:checkedButton="@id/rb13"
@@ -236,8 +237,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="133dp"
-        android:layout_height="47dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="95dp"
         android:gravity="center"
@@ -252,8 +253,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="convert"
         android:textColor="#FF1744"

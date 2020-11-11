@@ -24,8 +24,8 @@
 
     <TextView
         android:id="@+id/UCF"
-        android:layout_width="362dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="448dp"
         android:gravity="center"
         android:text="choose the measuremant"
@@ -80,8 +80,8 @@
 
     <TextView
         android:id="@+id/UCT"
-        android:layout_width="362dp"
-        android:layout_height="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="choose the measuremant"
         android:textAlignment="gravity"
@@ -110,7 +110,7 @@
 
     <RadioGroup
         android:id="@+id/radioGroup2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checkedButton="@id/rb13"
 
@@ -169,7 +169,7 @@
 
     <RadioGroup
         android:id="@+id/radioGroup1"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checkedButton="@id/rb"
         android:orientation="horizontal"
@@ -225,8 +225,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
         android:layout_marginEnd="32dp"
@@ -244,8 +244,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="133dp"
-        android:layout_height="47dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="temoerture"
         android:textColor="#FF1744"
@@ -259,8 +259,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginEnd="1dp"
