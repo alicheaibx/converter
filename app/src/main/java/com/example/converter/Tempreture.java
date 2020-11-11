@@ -14,8 +14,8 @@ public class Tempreture extends AppCompatActivity {
     EditText value1;
     ImageButton bt1, bt2, bt3;
     RadioButton rb,rb1,rb2,rb3;
- String v=value1.getText().toString();
-    int v1=Integer.parseInt(v);
+    String v;
+    int v1;
     TextView result;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +53,8 @@ public class Tempreture extends AppCompatActivity {
     }
 
     private void convert() {
-
+        v=value1.getText().toString();
+        v1=Integer.parseInt(v);
         if(rb.isChecked()&&rb2.isChecked()){
             result.setText(String.valueOf(v1));
         }

@@ -41,19 +41,18 @@ ImageButton b3;
     private void weight() {
         Intent intent1 = new Intent(MainActivity.this, Weight.class);
         startActivity(intent1);
-        finish();
+
     }
 
     private void distance() {
         Intent intent1 = new Intent(MainActivity.this, Distance.class);
         startActivity(intent1);
-        finish();
+
     }
 
     private void temperture() {
         Intent intent1 = new Intent(MainActivity.this, Tempreture.class);
-        startActivity(intent1);
-        finish();
+
     }
 
 }
