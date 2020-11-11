@@ -43,7 +43,7 @@ public class Weight extends AppCompatActivity {
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                temperture();
+                temperature();
             }
         });
         bt2.setOnClickListener(new View.OnClickListener() {
@@ -217,7 +217,7 @@ public class Weight extends AppCompatActivity {
 
     }
 
-    private void temperture() {
+    private void temperature() {
         Intent intent1 = new Intent(Weight.this, Tempreture.class);
         startActivity(intent1);
         finish();

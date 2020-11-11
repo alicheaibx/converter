@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.RadioButton;
@@ -44,7 +43,7 @@ TextView result;
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                temperture();
+                temperature();
             }
         });
         bt2.setOnClickListener(new View.OnClickListener() {
@@ -218,7 +217,7 @@ TextView result;
 
     }
 
-    private void temperture() {
+    private void temperature() {
         Intent intent1 = new Intent(Distance.this, Tempreture.class);
         startActivity(intent1);
         finish();

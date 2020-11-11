@@ -21,7 +21,7 @@ ImageButton b3;
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                temperture();
+                temperature();
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
@@ -50,7 +50,7 @@ ImageButton b3;
 
     }
 
-    private void temperture() {
+    private void temperature() {
         Intent intent1 = new Intent(MainActivity.this, Tempreture.class);
 
     }
