@@ -20,7 +20,7 @@ public class Tempreture extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_distance);
+        setContentView(R.layout.activity_tempreture);
         value1 = findViewById(R.id.v1);
         result = findViewById(R.id.v2);
         bt1 = findViewById(R.id.tempreture);
