@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Weight extends AppCompatActivity {
     EditText value1;
-    ImageButton bt1, bt2, bt3;
+    ImageButton bbt1, bbt2, bbt3;
     RadioButton rb,rb1,rb2,rb3,rb4,rb5,rb6,rb7,rb8,rb9,rb10,rb11,rb12,rb13;
     String v;
     int v1;
@@ -23,9 +23,9 @@ public class Weight extends AppCompatActivity {
         setContentView(R.layout.activity_whight);
         value1 = findViewById(R.id.v1);
         result = findViewById(R.id.v2);
-        bt1 = findViewById(R.id.tp);
-        bt2 = findViewById(R.id.distance);
-        bt3= findViewById(R.id.convert);
+        bbt1 = findViewById(R.id.tp);
+        bbt2 = findViewById(R.id.distance);
+        bbt3= findViewById(R.id.convert);
         rb= findViewById(R.id.rb);
         rb1= findViewById(R.id.rb1);
         rb2= findViewById(R.id.rb2);
@@ -40,28 +40,28 @@ public class Weight extends AppCompatActivity {
         rb11= findViewById(R.id.rb11);
         rb12= findViewById(R.id.rb12);
         rb13= findViewById(R.id.rb13);
-        bt1.setOnClickListener(new View.OnClickListener() {
+        bbt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 temperature();
             }
         });
-        bt2.setOnClickListener(new View.OnClickListener() {
+        bbt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 distance();
             }
         });
-        bt3.setOnClickListener(new View.OnClickListener() {
+        bbt3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                convert();
+                convert1();
             }
         });
 
     }
 
-    private void convert() {
+    private void convert1() {
         v=value1.getText().toString();
         v1=Integer.parseInt(v);
 
