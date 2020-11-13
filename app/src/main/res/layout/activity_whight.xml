@@ -76,7 +76,7 @@
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tempreture"
-        app:srcCompat="@drawable/weight" />
+        app:srcCompat="@drawable/distance" />
 
     <TextView
         android:id="@+id/UCT"

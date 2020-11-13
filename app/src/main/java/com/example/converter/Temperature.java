@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-public class Tempreture extends AppCompatActivity {
+public class Temperature extends AppCompatActivity {
     EditText value1;
     ImageButton bt1, bt2, bt3;
     RadioButton rb,rb1,rb2,rb3;
@@ -74,12 +74,12 @@ public class Tempreture extends AppCompatActivity {
     }
 
     private void distance() {
-        Intent intent1 = new Intent(Tempreture.this, Distance.class);
+        Intent intent1 = new Intent(Temperature.this, Distance.class);
         startActivity(intent1);
         finish();
     }
     private void weight() {
-        Intent intent1 = new Intent(Tempreture.this, Weight.class);
+        Intent intent1 = new Intent(Temperature.this, Weight.class);
         startActivity(intent1);
         finish();
     }

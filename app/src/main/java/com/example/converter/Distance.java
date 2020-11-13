@@ -218,7 +218,7 @@ TextView result;
     }
 
     private void temperature() {
-        Intent intent1 = new Intent(Distance.this, Tempreture.class);
+        Intent intent1 = new Intent(Distance.this, Temperature.class);
         startActivity(intent1);
         finish();
     }

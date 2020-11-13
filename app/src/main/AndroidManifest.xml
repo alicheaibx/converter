@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Converter">
         <activity android:name=".Weight"></activity>
-        <activity android:name=".Tempreture" />
+        <activity android:name=".Temperature" />
         <activity android:name=".Distance" />
         <activity android:name=".MainActivity">
             <intent-filter>

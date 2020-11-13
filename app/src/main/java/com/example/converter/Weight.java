@@ -218,7 +218,7 @@ public class Weight extends AppCompatActivity {
     }
 
     private void temperature() {
-        Intent intent1 = new Intent(Weight.this, Tempreture.class);
+        Intent intent1 = new Intent(Weight.this, Temperature.class);
         startActivity(intent1);
         finish();
     }
