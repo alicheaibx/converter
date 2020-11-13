@@ -55,13 +55,13 @@ public class Weight extends AppCompatActivity {
         bbt3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                convert1();
+                convert();
             }
         });
 
     }
 
-    private void convert1() {
+    private void convert() {
         v=value1.getText().toString();
         v1=Integer.parseInt(v);
 

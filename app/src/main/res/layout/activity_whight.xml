@@ -148,7 +148,7 @@
             android:text="g" />
 
         <RadioButton
-            android:id="@+id/rb111"
+            android:id="@+id/rb11"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="Dg" />
