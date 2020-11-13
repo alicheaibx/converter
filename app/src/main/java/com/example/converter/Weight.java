@@ -49,7 +49,7 @@ public class Weight extends AppCompatActivity {
         bt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               distance();
+                distance();
             }
         });
         bt3.setOnClickListener(new View.OnClickListener() {

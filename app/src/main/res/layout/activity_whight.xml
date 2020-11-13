@@ -233,7 +233,7 @@
         android:layout_marginRight="32dp"
         android:checkedButton="@id/rb13"
         android:gravity="center"
-        android:text="weight"
+        android:text="distance"
         android:textColor="@android:color/holo_green_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
