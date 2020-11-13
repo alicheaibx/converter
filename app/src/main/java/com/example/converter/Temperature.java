@@ -31,12 +31,12 @@ public class Temperature extends AppCompatActivity {
         rb2= findViewById(R.id.rb2);
         rb3= findViewById(R.id.rb3);
 
-        bt1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                distance();
-            }
-        });
+    bt1.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            distance();
+        }
+    });
         bt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
