@@ -15,7 +15,7 @@ public class Temperature extends AppCompatActivity {
     ImageButton bt1, bt2, bt3;
     RadioButton rb,rb1,rb2,rb3;
     String v;
-    int v1;
+   float v1;
     TextView result;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +54,7 @@ public class Temperature extends AppCompatActivity {
 
     private void convert() {
         v=value1.getText().toString();
-        v1=Integer.parseInt(v);
+        v1=Float.parseFloat(v);
         if(rb.isChecked()&&rb2.isChecked()){
             result.setText(String.valueOf(v1));
         }

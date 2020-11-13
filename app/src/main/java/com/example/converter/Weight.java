@@ -15,7 +15,7 @@ public class Weight extends AppCompatActivity {
     ImageButton bbt1, bbt2, bbt3;
     RadioButton rb,rb1,rb2,rb3,rb4,rb5,rb6,rb7,rb8,rb9,rb10,rb11,rb12,rb13;
     String v;
-    int v1;
+    float v1;
     TextView result;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +63,7 @@ public class Weight extends AppCompatActivity {
 
     private void convert() {
         v=value1.getText().toString();
-        v1=Integer.parseInt(v);
+        v1=Float.parseFloat(v);
 
         if(rb.isChecked()&&rb7.isChecked()){
             result.setText(String.valueOf(v1));
