@@ -40,7 +40,7 @@
         />
 
     <ImageButton
-        android:id="@+id/temprature"
+        android:id="@+id/tp"
         android:layout_width="80dp"
         android:layout_height="93dp"
         android:layout_marginBottom="116dp"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/temprature"
+        app:layout_constraintTop_toBottomOf="@+id/tp"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/convert" />
 
@@ -75,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/temprature"
+        app:layout_constraintTop_toBottomOf="@+id/tp"
         app:srcCompat="@drawable/distance" />
 
     <TextView
@@ -113,7 +113,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checkedButton="@id/rb13"
-
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -253,7 +252,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.126"
-        app:layout_constraintStart_toEndOf="@+id/temprature"
+        app:layout_constraintStart_toEndOf="@+id/tp"
         app:layout_constraintTop_toBottomOf="@+id/v2"
         app:layout_constraintVertical_bias="0.337" />
 

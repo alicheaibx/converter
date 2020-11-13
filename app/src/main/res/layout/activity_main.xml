@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/temprature"
+        android:id="@+id/tp"
         android:layout_width="80dp"
         android:layout_height="93dp"
         android:layout_marginEnd="4dp"
@@ -86,7 +86,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/temprature"
+        app:layout_constraintTop_toBottomOf="@+id/tp"
         app:layout_constraintVertical_bias="0.539" />
 
     <TextView

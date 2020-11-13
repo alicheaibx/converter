@@ -23,7 +23,7 @@ public class Weight extends AppCompatActivity {
         setContentView(R.layout.activity_whight);
         value1 = findViewById(R.id.v1);
         result = findViewById(R.id.v2);
-        bt1 = findViewById(R.id.temprature);
+        bt1 = findViewById(R.id.tp);
         bt2 = findViewById(R.id.distance);
         bt3= findViewById(R.id.convert);
         rb= findViewById(R.id.rb);
