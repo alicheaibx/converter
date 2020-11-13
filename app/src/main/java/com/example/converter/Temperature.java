@@ -23,7 +23,7 @@ public class Temperature extends AppCompatActivity {
         setContentView(R.layout.activity_temprature);
         value1 = findViewById(R.id.v1);
         result = findViewById(R.id.v2);
-        bt1 = findViewById(R.id.temprature);
+        bt1 = findViewById(R.id.distance);
         bt2 = findViewById(R.id.weight);
         bt3= findViewById(R.id.convert);
         rb= findViewById(R.id.rb);
