@@ -15,7 +15,7 @@ ImageButton b3;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        b1=findViewById(R.id.tempreture);
+        b1=findViewById(R.id.temprature);
         b2=findViewById(R.id.distance);
         b3=findViewById(R.id.weight);
         b1.setOnClickListener(new View.OnClickListener() {

@@ -40,7 +40,7 @@
         />
 
     <ImageButton
-        android:id="@+id/tempreture"
+        android:id="@+id/temprature"
         android:layout_width="80dp"
         android:layout_height="93dp"
         android:layout_marginBottom="116dp"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/tempreture"
+        app:layout_constraintTop_toBottomOf="@+id/temprature"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/convert" />
 
@@ -75,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tempreture"
+        app:layout_constraintTop_toBottomOf="@+id/temprature"
         app:srcCompat="@drawable/distance" />
 
     <TextView
@@ -234,7 +234,7 @@
         android:checkedButton="@id/rb13"
         android:gravity="center"
         android:text="weight"
-        android:textColor="#FF1744"
+        android:textColor="@android:color/holo_green_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
@@ -247,13 +247,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="temoerture"
-        android:textColor="#FF1744"
+        android:text="temparture"
+        android:textColor="@android:color/holo_green_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.126"
-        app:layout_constraintStart_toEndOf="@+id/tempreture"
+        app:layout_constraintStart_toEndOf="@+id/temprature"
         app:layout_constraintTop_toBottomOf="@+id/v2"
         app:layout_constraintVertical_bias="0.337" />
 
@@ -267,7 +267,7 @@
         android:layout_marginRight="1dp"
         android:gravity="center"
         android:text="convert"
-        android:textColor="#FF1744"
+        android:textColor="@android:color/holo_green_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/convert"

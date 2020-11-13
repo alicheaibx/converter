@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/tempreture"
+        android:id="@+id/temprature"
         android:layout_width="80dp"
         android:layout_height="93dp"
         android:layout_marginEnd="4dp"
@@ -82,10 +82,11 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:text="tempertuer"
+        android:textColor="#76FF03"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tempreture"
+        app:layout_constraintTop_toBottomOf="@+id/temprature"
         app:layout_constraintVertical_bias="0.539" />
 
     <TextView
@@ -95,6 +96,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginLeft="48dp"
         android:text="weight"
+        android:textColor="#76FF03"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView5"
@@ -105,6 +107,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="distance"
+        android:textColor="#76FF03"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.5"
